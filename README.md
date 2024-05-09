@@ -1,6 +1,6 @@
 # CollegeAdmit
 
-## Description:
+### Description:
 CollegeAdmit is a comprehensive college admissions platform designed to streamline the application process for students. Leveraging modern web technologies, the application offers a seamless user experience and robust backend functionality.
 
 **Key Features:**
