@@ -1,0 +1,410 @@
+body {
+    /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.Home{
+    /* background-color: #80dfe7;
+background-image: linear-gradient(0deg, #80dfe7 0%, #ffffff 59%, #ffffff 100%); */
+background-color: #ffffff;
+background-image: linear-gradient(0deg, #ffffff 3%, #ffffff 13%, rgb(152,211,241,0.3) 33%, #ffffff 63%);
+
+
+
+}
+.navbar {
+    align-items: center;
+    border-bottom: 1px solid rgba(22, 22, 22, .16);
+    background-color: #fff;
+    box-sizing: border-box;
+    color: #3F3F3F;
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: space-between;
+    line-height: 20px;
+    min-height: 55px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item:first-child{
+   /* margin-left: 30%; */
+}
+.nav-item{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+} 
+.nav-item:nth-child(4) {
+    margin-right: 0;
+}
+.nav-item:nth-child(5) {
+    margin-right: 0;
+    margin-left: 0;
+}
+.item{
+    color: #3F3F3F;
+    
+}
+/* .loginbtn{
+    margin-right: 10px;
+} */
+
+.carousal{
+    max-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+}
+
+.intro{
+    /* margin-top: 2%; */
+    display: flex;
+}
+.column{
+    flex: 50%;
+    padding: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+p.nodon{
+    /* font-family: 'Montserrat', sans-serif; */
+    text-align: center;
+    color: #666666;
+    font-size: 18px;
+}
+
+.topcoll{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.bg-image{
+    height: 500px;
+    width: 500px;
+    margin-right: 40px;
+    margin-top: 80px;
+}
+.htc{
+    text-align: center;
+}
+
+.footer{
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.slider img,
+.card-image {
+  height: 450px;
+  object-fit: cover;
+}
+
+/*search*/
+
+/* .height {
+    margin-top: 20%;
+} */
+
+/* .collegeList{
+    background-color: #677b8c;
+}
+
+.colleges{
+    background-color: white;
+} */
+.searchForm{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search input {
+    height: 60px;
+    text-indent: 25px;
+    /* border: 2px solid #f0666d */
+    border: 2px solid #3399ff
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px
+}
+
+.search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    background: #3399ff
+}
+.signIn {
+    font-size: 1.1em;
+    color: #3F3F3F;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 20px;
+}
+.signUp {
+    font-size: 1.1em;
+    color: #3F3F3F;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.cartLink{
+    /* font-size: 1.1em; */
+    color: #3F3F3F;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-item:first-child{
+        margin-left: 0;
+     }
+    .nav-item{
+        margin-left: 0;
+        font-size: 1.1em;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .cartLink{
+        color: #3F3F3F;
+    }
+    .navbar {
+        align-items: center;
+        border-bottom: 1px solid rgba(22, 22, 22, .16);
+        background-color: #fff;
+        box-sizing: border-box;
+        color: #3F3F3F;
+        display: flex;
+        font-size: 12px;
+        font-weight: bold;
+        justify-content: space-between;
+        /*letter-spacing: .045em;*/
+        line-height: 20px;
+        min-height: 70px;
+        padding: 20px;
+        /* position: static;
+        transition: background-color 400ms ease;
+        transition: none; */
+        font-family: 'Montserrat', sans-serif;
+    }
+  }
+
+  .box {
+    position:absolute;
+      top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+  }
+  
+  .box h1 {
+    color: #fff;
+  }
+  .box h4 {
+    color: #f3f1f1;
+  }
+
+  .footer-headings{
+    color: #cccccc;
+}
+.footer-desc{
+    color: #a6a6a6;
+}
+ /* .nodonContainer{
+     margin-top: px;
+ } */
+.iframe-video{
+    height: 420px;
+    width: 580px;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .iframe-video{
+        height: 300px;
+        width: 440px;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.study-field{
+    margin:40px;
+    margin-bottom: -20px;
+}
+
+.subCategoryLink{
+    /* color:#a6a6a6 */
+    color: #808080;
+}
+.subCategoryLink:hover{
+    color: #1D93FF;
+}
+
+.studyFieldCard{
+    width: 300px; 
+    height: 300px;
+    /* margin-bottom: 20px; */
+}
+
+ .studyFieldDiv{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+} 
+
+@media only screen and (max-width: 1000px) {
+    .studyFieldDiv{
+        margin: 35px;
+    }
+    .searchBoxImage{
+        content:url("images/searchbox4.png");
+        width: 350px;
+        height:53px
+    }
+}
+
+.collegeDescriptionLink{
+    color: #666666;
+    font-weight: 500;
+}
+
+.collegeDescriptionLink:hover{
+    color: #1D93FF;
+}
+
+.singleCollegeCard{
+    height: 530px;
+    /* border: 10px solid black; */
+    background-color: #98D3F1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.registerDiv{
+   background: url(images/registerNowDivImage.jpg); 
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.registerDiv2{
+    display: none;
+    background: url(images/registerNowDivImage.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 640px) {
+    .newArrivalCollegeCard{
+        margin-bottom: 30px;
+    }
+    .topCollegesCollegeCard{
+        margin-bottom: 30px;
+    }
+    .registerDiv{
+        display: none;
+        background-size: cover;
+        padding: 100px;
+        margin-left: 500px;
+        font-size: 10px;
+     }
+     .registerDiv2{
+         display: block;
+     }
+     .HomeCardConatainer{
+        padding: 40px;
+    }
+
+}
+
+#citem1,#citem2,#citem3{
+    height: 450 px;
+    width: 1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    text-align: center;
+
+  }
+  #citem1{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/www.nodon.in/images/image7.jpg");
+  }   
+  #citem2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("https://s3.ap-south-1.amazonaws.com/www.nodon.in/images/image2.jpg");
+}
+#citem3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://s3.ap-south-1.amazonaws.com/www.nodon.in/images/image6.jpg");
+}
+
+
+
+.button-36 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  /* font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif; */
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+    .HomeCardConatainer{
+        margin: 100px;
+    }
+}
