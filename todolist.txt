@@ -1,0 +1,5 @@
+1.Routing Back To The Intended Page After Login
+2.User Data Required
+3.Local Storage Empty For Cart And Raxorpay.
+4.$ to Rs.
+5.Reload Of Checkout Page.Server Crash.
