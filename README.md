@@ -3,7 +3,7 @@
 ### Description:
 CollegeAdmit is a comprehensive college admissions platform designed to streamline the application process for students. Leveraging modern web technologies, the application offers a seamless user experience and robust backend functionality.
 
-**Key Features:**
+### Key Features:
 
 **User Authentication:** Seamlessly authenticate users using Google OAuth for a secure login process.
 
@@ -19,5 +19,5 @@ CollegeAdmit is a comprehensive college admissions platform designed to streamli
 
 **Security:** Implementing best practices in authentication and authorization, CollegeAdmit prioritizes data security and privacy, safeguarding sensitive user information throughout the application.
 
-**Impact:**
+### Impact:
 CollegeAdmit revolutionizes the college admissions experience, offering a modern and user-centric solution that benefits both students and educational institutions. The platform simplifies the application process, enhances accessibility, and fosters greater transparency in higher education admissions.
